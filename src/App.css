@@ -15,5 +15,14 @@
 }
 
 #container span span:hover {
-    background: lightcyan;
+    background: lightcyan !important;
+}
+#container span span {
+    background-color: #eeeeee;
+}
+#container span:nth-child(odd) span:nth-child(odd) {
+    background-color: #dddddd;
+}
+#container span:nth-child(even) span:nth-child(even) {
+    background-color: #dddddd
 }
