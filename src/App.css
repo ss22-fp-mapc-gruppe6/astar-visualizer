@@ -12,10 +12,11 @@
     width: 40px;
     height: 40px;
     font-size: 10px;
+    transition: 0.2s;
 }
 
 #container span span:hover {
-    background: lightcyan !important;
+    background: #cdcdeb !important;
 }
 #container span span {
     background-color: #eeeeee;
