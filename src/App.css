@@ -8,22 +8,25 @@
     display: flex;
 }
 
-#container span span {
+#container span span span {
     width: 40px;
     height: 40px;
     font-size: 10px;
-    transition: 0.2s;
+    transition: 1.2s;
 }
 
-#container span span:hover {
-    background: #cdcdeb !important;
+.hover{
+   background: rgba(205, 205, 235, 0.60) !important;
 }
-#container span span {
+/*#container span span:hover {*/
+/*    background: #cdcdeb !important;*/
+/*}*/
+#container>span>span {
     background-color: #eeeeee;
 }
-#container span:nth-child(odd) span:nth-child(odd) {
+#container>span:nth-child(odd)>span:nth-child(odd) {
     background-color: #dddddd;
 }
-#container span:nth-child(even) span:nth-child(even) {
+#container>span:nth-child(even)>span:nth-child(even) {
     background-color: #dddddd
 }

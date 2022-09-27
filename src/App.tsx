@@ -34,10 +34,19 @@ function App() {
                 {grid.map((row, index) =>
                     <span key={index}>
                         {row.map((p, index) =>
+                            <span>
                             <span
+                                className={
+                                    (p.x === debouncedValue.x && p.y <= debouncedValue.y)
+                                    ||
+                                    (p.y === debouncedValue.y && p.x <= debouncedValue.x)
+                                        ? 'hover' : ''}
                                 key={index}
                                 onMouseEnter={() => setHoveredPoint(p)}
                             >
+                                {p.x === 0 ? p.y : null}
+                                {p.y === 0 ? p.x : null}
+                            </span>
                             </span>
                         )}
                     </span>
