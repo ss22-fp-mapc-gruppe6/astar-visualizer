@@ -20,9 +20,10 @@ function App() {
         <>
             <div id="container">
                 {grid.map(row =>
-                    <span>{row.map(value =>
-                        <span>{value}</span>
-                    )}
+                    <span>
+                        {row.map(value =>
+                            <span>{value}</span>
+                        )}
                     </span>
                 )}
             </div>
