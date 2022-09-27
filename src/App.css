@@ -1,0 +1,18 @@
+#container {
+    margin: 0 auto;
+}
+
+#container span {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#container span span {
+    width: 40px;
+    height: 40px;
+}
+
+#container span span:hover {
+    background: lightcyan;
+}
