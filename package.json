@@ -2,7 +2,7 @@
   "name": "astar-visualizer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ss22-fp-mapc-gruppe6.github.io/astar-visualizer/",
+  "homepage": "https://ss22-fp-mapc-gruppe6.github.io/astar-visualizer/docs",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

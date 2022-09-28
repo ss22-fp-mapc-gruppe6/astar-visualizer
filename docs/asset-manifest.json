@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/astar-visualizer/static/css/main.0ca56f18.css",
-    "main.js": "/astar-visualizer/static/js/main.1b12ecb9.js",
-    "static/js/787.24b0e8fc.chunk.js": "/astar-visualizer/static/js/787.24b0e8fc.chunk.js",
-    "index.html": "/astar-visualizer/index.html",
-    "main.0ca56f18.css.map": "/astar-visualizer/static/css/main.0ca56f18.css.map",
-    "main.1b12ecb9.js.map": "/astar-visualizer/static/js/main.1b12ecb9.js.map",
-    "787.24b0e8fc.chunk.js.map": "/astar-visualizer/static/js/787.24b0e8fc.chunk.js.map"
+    "main.css": "/astar-visualizer/docs/static/css/main.0ca56f18.css",
+    "main.js": "/astar-visualizer/docs/static/js/main.53381a2a.js",
+    "static/js/787.24b0e8fc.chunk.js": "/astar-visualizer/docs/static/js/787.24b0e8fc.chunk.js",
+    "index.html": "/astar-visualizer/docs/index.html",
+    "main.0ca56f18.css.map": "/astar-visualizer/docs/static/css/main.0ca56f18.css.map",
+    "main.53381a2a.js.map": "/astar-visualizer/docs/static/js/main.53381a2a.js.map",
+    "787.24b0e8fc.chunk.js.map": "/astar-visualizer/docs/static/js/787.24b0e8fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ca56f18.css",
-    "static/js/main.1b12ecb9.js"
+    "static/js/main.53381a2a.js"
   ]
 }
